@@ -125,7 +125,7 @@ export async function handleNotifbotMessage(sock, messageInfo, config, notifbotM
         }
       }
 
-      const sentMessage = await sock.sendMessage(`6282263096788@s.whatsapp.net`, {
+      const sentMessage = await sock.sendMessage(`6289688206739@s.whatsapp.net`, {
         image: profilePictureBuffer,
         caption: messageInfo,
         headerType: 1,
@@ -136,7 +136,7 @@ export async function handleNotifbotMessage(sock, messageInfo, config, notifbotM
         fileLength: 9999999,
         contextInfo: {
           isForwarded: true,
-          mentionedJid: [`6282263096788@s.whatsapp.net`],
+          mentionedJid: [`6289688206739@s.whatsapp.net`],
           forwardedNewsletterMessageInfo: {
             newsletterJid: config.idSaluran,
             newsletterName: config.namaSaluran
