@@ -10,7 +10,7 @@
     "autoLikeStatus": true,
     "autoReadStatus": true,
     "autoRecord": false,
-    "autoTyping": true,
+    "autoTyping": false,
     "════════ Protection Features ════════": "",
     "antiCallV2": false,
     "antitagswv2": false,
